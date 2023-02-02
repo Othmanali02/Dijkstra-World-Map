@@ -1,0 +1,212 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	font-size: 60px;
+}
+
+canvas {
+	background-color: transparent;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+.Transport {
+	position: absolute;
+	display: grid;
+	grid-auto-flow: row;
+	background-color: white;
+
+	grid-gap: 10px;
+}
+
+.Transport button {
+	border: none;
+	background-color: black;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+.Transport button:hover {
+	background-color: red;
+}
+.transicon {
+	height: 20px;
+	filter: invert(1);
+	margin-top: 5px;
+}
+
+.form {
+	width: 19%;
+	top: 5%;
+	right: 0%;
+	height: 250px;
+	justify-items: center;
+	text-align: center;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	position: fixed;
+	color: white;
+	transition-duration: 0.3s;
+}
+
+h5 {
+	margin: 8px;
+}
+
+.grid {
+	display: grid;
+	margin-top: 20px;
+	margin-right: 10px;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+
+h4 {
+	margin-top: 0px;
+}
+
+.countryName {
+	position: absolute;
+	background-color: white;
+	font-size: 10px;
+	color: black;
+	font-weight: 600;
+	z-index: 5;
+	padding: 0px 2px;
+}
+
+.compute {
+	border: none;
+	background-color: white;
+	color: black;
+	font-weight: 600;
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.clear {
+	border: none;
+	margin-left: 10px;
+	background-color: white;
+	color: black;
+	font-weight: 600;
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.worldmap {
+	display: inline-block;
+	position: relative;
+}
+
+.worldImage {
+	max-width: 80vw;
+	width: 1300px;
+	height: 1000px;
+	margin: auto;
+	border: 1px solid black;
+}
+
+.selectPrompt {
+	position: absolute;
+	top: 0%;
+	text-align: center;
+	width: 100%;
+	z-index: 1000;
+	background-color: #141414;
+	padding: 0px;
+	box-shadow: 10px 5px 5px #141414;
+}
+.selectPrompt h1 {
+	font-size: 22px;
+	color: white;
+}
+
+.pointer {
+	top: 0;
+	left: 0;
+	position: absolute;
+	border-radius: 100%;
+	color: transparent;
+	border: 4px solid purple;
+	cursor: pointer;
+}
+
+.name {
+	position: absolute;
+}
+
+.ZoomIcons {
+	position: absolute;
+	display: grid;
+	grid-auto-flow: row;
+	grid-gap: 5px;
+	z-index: 999;
+	background-color: #141414;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+.reset {
+	height: 20px;
+	filter: invert(1);
+	margin-top: 5px;
+}
+
+.ZoomIcons button {
+	background-color: #212121;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	transition-duration: 0.4s;
+}
+
+.ZoomIcons button:hover {
+	background-color: red;
+}
+
+select {
+	color: red;
+	border: 1px solid black;
+	background-color: black;
+	cursor: pointer;
+	margin-top: 2px;
+	text-align: center;
+}
+
+.select {
+	background-color: red;
+	display: block;
+	color: white;
+	cursor: pointer;
+	width: 100%;
+	padding: 5px 5px;
+	text-align: center;
+}
+
+.country {
+	background-color: black;
+	color: white;
+	border-radius: 50%;
+	border: 4px solid red;
+	position: absolute;
+}
+
+.worldmap {
+	width: 100%;
+}
+
+select {
+	margin-bottom: 20px;
+	width: 130px;
+}
